@@ -3,9 +3,7 @@ import { TasksService } from './tasks.service';
 
 @Controller('tasks')
 export class TasksController {
-    constructor(private taskService: TasksService) {}
+  constructor(private taskService: TasksService) {}
 
-    helloWorld (){
-
-    }
+  helloWorld() {}
 }
